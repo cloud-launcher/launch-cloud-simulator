@@ -1,1 +1,8 @@
-console.log('Now run you some ECMAScript 6!');
+import core from 'launch-cloud-core';
+import DOWrapper from 'do-wrapper-browser';
+
+module.exports = core({
+  providers: {
+    digitalocean: DOWrapper
+  }
+});

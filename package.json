@@ -46,5 +46,10 @@
     "gulp-util": "^3.0.4",
     "traceur": "0.0.85",
     "traceur-runtime": "0.0.59"
+  },
+  "dependencies": {
+    "do-wrapper-browser": "^0.1.0",
+    "launch-cloud-core": "^0.0.1",
+    "launch-cloud-providers": "0.0.3"
   }
 }
