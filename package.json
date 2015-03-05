@@ -27,5 +27,23 @@
   "bugs": {
     "url": "https://github.com/cloud-launcher/launch-cloud-browser/issues"
   },
-  "homepage": "https://github.com/cloud-launcher/launch-cloud-browser"
+  "homepage": "https://github.com/cloud-launcher/launch-cloud-browser",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-babel": "^4.0.0",
+    "gulp-cached": "^1.0.2",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-jshint": "^1.9.2",
+    "gulp-load-plugins": "^0.8.1",
+    "gulp-pipe": "^1.0.3",
+    "gulp-print": "^1.1.0",
+    "gulp-sequence": "^0.3.2",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-tasks": "0.0.2",
+    "gulp-traceur": "^0.17.0",
+    "gulp-util": "^3.0.4",
+    "traceur": "0.0.85",
+    "traceur-runtime": "0.0.59"
+  }
 }
