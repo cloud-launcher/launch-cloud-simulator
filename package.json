@@ -1,0 +1,31 @@
+{
+  "name": "launch-cloud-browser",
+  "version": "0.0.1",
+  "description": "launch-cloud for your browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloud-launcher/launch-cloud-browser"
+  },
+  "keywords": [
+    "launch-cloud",
+    "browser",
+    "cloud-launcher",
+    "cloud",
+    "provisioning",
+    "digitalocean",
+    "aws",
+    "gce",
+    "azure",
+    "rackspace"
+  ],
+  "author": "Blake La Pierre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloud-launcher/launch-cloud-browser/issues"
+  },
+  "homepage": "https://github.com/cloud-launcher/launch-cloud-browser"
+}
