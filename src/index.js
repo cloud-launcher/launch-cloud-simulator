@@ -7,10 +7,10 @@ module.exports = providerConfigs => {
 
   const api = core({
     providerApis: {
-      aws: null,
-      azure: null,
+      amazon: null,
       digitalocean: DOWrapper,
-      gce: null,
+      google: null,
+      microsoft: null,
       rackspace: null
     },
     providerConfigs
