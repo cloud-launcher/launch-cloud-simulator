@@ -44,11 +44,11 @@
     "gulp-tasks": "0.0.2",
     "gulp-traceur": "^0.17.0",
     "gulp-util": "^3.0.4",
-    "traceur": "0.0.85",
+    "traceur": "0.0.86",
     "traceur-runtime": "0.0.59"
   },
   "dependencies": {
-    "do-wrapper-browser": "^0.1.0",
+    "do-wrapper-browser": "^0.1.2",
     "launch-cloud-core": "^0.0.1",
     "launch-cloud-providers": "0.0.3"
   }
