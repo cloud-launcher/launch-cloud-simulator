@@ -2,7 +2,7 @@ import core from 'launch-cloud-core';
 
 import DOWrapper from 'do-wrapper-browser';
 
-module.exports = providerConfigs => {
+module.exports = (providerConfigs, log) => {
   if (providerConfigs === undefined || providerConfigs === null) throw Error('Must provide a providerConfigs object!');
 
   const api = core({
@@ -14,7 +14,7 @@ module.exports = providerConfigs => {
       rackspace: null
     },
     providerConfigs
-  });
+  }, log);
 
   return api;
 };
