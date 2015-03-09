@@ -48,6 +48,7 @@
     "traceur-runtime": "0.0.59"
   },
   "dependencies": {
+    "browser-request": "^0.3.3",
     "do-wrapper-browser": "^0.1.2",
     "launch-cloud-core": "^0.0.1",
     "launch-cloud-providers": "0.0.3"

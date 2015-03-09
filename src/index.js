@@ -2,6 +2,8 @@ import core from 'launch-cloud-core';
 
 import DOWrapper from 'do-wrapper-browser';
 
+import request from 'browser-request';
+
 module.exports = (providerConfigs, log) => {
   if (providerConfigs === undefined || providerConfigs === null) throw Error('Must provide a providerConfigs object!');
 
@@ -14,7 +16,7 @@ module.exports = (providerConfigs, log) => {
       rackspace: null
     },
     providerConfigs
-  }, log);
+  }, log, request, 'http://localhost:3408');
 
   return api;
 };
