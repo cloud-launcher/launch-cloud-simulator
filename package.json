@@ -31,7 +31,7 @@
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-babel": "^4.0.0",
-    "gulp-cached": "^1.0.2",
+    "gulp-cached": "^1.0.4",
     "gulp-clean": "^0.3.1",
     "gulp-concat": "^2.5.2",
     "gulp-jshint": "^1.9.2",
@@ -45,6 +45,7 @@
     "gulp-traceur": "^0.17.0",
     "gulp-util": "^3.0.4",
     "traceur": "0.0.86",
+    "minimist": "^1.1.0",
     "traceur-runtime": "0.0.59"
   },
   "dependencies": {
