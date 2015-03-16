@@ -4,7 +4,10 @@ import DOWrapper from 'do-wrapper-browser';
 
 import request from 'browser-request';
 
-const dockerHubApiRoot = 'http://localhost:3408';
+const proxies = {
+  dockerHubApiRoot: 'http://localhost:3408',
+  discoveryEtcdApiRoot: 'http://localhost:3409'
+};
 
 module.exports = (providerConfigs, log) => {
   if (providerConfigs === undefined || providerConfigs === null) throw Error('Must provide a providerConfigs object!');
@@ -20,7 +23,7 @@ module.exports = (providerConfigs, log) => {
     providerConfigs,
     log,
     request,
-    dockerHubApiRoot
+    proxies
   });
 
   return api;
